@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36E2D93F066C055E2DA0E6EB /* Pods_Krixi_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCBD7F1DD1B580B6E0E854A1 /* Pods_Krixi_Demo.framework */; };
+		B01F0CA41EF37AD50038313B /* FavouritesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01F0CA31EF37AD50038313B /* FavouritesTableViewController.swift */; };
+		B01F0CA91EF37D4C0038313B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01F0CA81EF37D4C0038313B /* Extensions.swift */; };
+		B01F0CAC1EF37F400038313B /* FavoritesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01F0CAA1EF37F400038313B /* FavoritesTableViewCell.swift */; };
+		B01F0CAD1EF37F400038313B /* FavoritesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B01F0CAB1EF37F400038313B /* FavoritesTableViewCell.xib */; };
+		B02A80231EF18C9200027871 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02A80221EF18C9200027871 /* AppDelegate.swift */; };
+		B02A80281EF18C9200027871 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B02A80261EF18C9200027871 /* Main.storyboard */; };
+		B02A802B1EF18C9200027871 /* Krixi_Demo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B02A80291EF18C9200027871 /* Krixi_Demo.xcdatamodeld */; };
+		B02A802D1EF18C9200027871 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B02A802C1EF18C9200027871 /* Assets.xcassets */; };
+		B02A80301EF18C9200027871 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B02A802E1EF18C9200027871 /* LaunchScreen.storyboard */; };
+		B02A80381EF18CDA00027871 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B02A80371EF18CDA00027871 /* Images.xcassets */; };
+		B02A80471EF18D2900027871 /* AMInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02A803C1EF18D2900027871 /* AMInputView.swift */; };
+		B02A80481EF18D2900027871 /* AMInputView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B02A803D1EF18D2900027871 /* AMInputView.xib */; };
+		B02A80521EF18D4900027871 /* LoginSignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02A80511EF18D4900027871 /* LoginSignupViewController.swift */; };
+		B02A80541EF1907900027871 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02A80531EF1907900027871 /* Utils.swift */; };
+		B02A80591EF1A01700027871 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02A80581EF1A01700027871 /* AppConstants.swift */; };
+		B02A805E1EF1B6A100027871 /* ShoppingItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02A805D1EF1B6A100027871 /* ShoppingItemViewController.swift */; };
+		B0F275E91EF1C78D00EC592B /* BackgroundAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F275E21EF1C78D00EC592B /* BackgroundAnimationViewController.swift */; };
+		B0F275EA1EF1C78D00EC592B /* BackgroundKolodaAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F275E31EF1C78D00EC592B /* BackgroundKolodaAnimator.swift */; };
+		B0F275EB1EF1C78D00EC592B /* CustomKolodaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F275E41EF1C78D00EC592B /* CustomKolodaView.swift */; };
+		B0F275EC1EF1C78D00EC592B /* CustomOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F275E51EF1C78D00EC592B /* CustomOverlayView.swift */; };
+		B0F275ED1EF1C78D00EC592B /* CustomOverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0F275E61EF1C78D00EC592B /* CustomOverlayView.xib */; };
+		B0F275EE1EF1C78D00EC592B /* ExampleOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F275E71EF1C78D00EC592B /* ExampleOverlayView.swift */; };
+		B0F275EF1EF1C78D00EC592B /* OverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0F275E81EF1C78D00EC592B /* OverlayView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		21A8D7E6A1EE8866F80A12F0 /* Pods-Krixi-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Krixi-Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Krixi-Demo/Pods-Krixi-Demo.release.xcconfig"; sourceTree = "<group>"; };
+		B01F0CA31EF37AD50038313B /* FavouritesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavouritesTableViewController.swift; sourceTree = "<group>"; };
+		B01F0CA81EF37D4C0038313B /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		B01F0CAA1EF37F400038313B /* FavoritesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesTableViewCell.swift; sourceTree = "<group>"; };
+		B01F0CAB1EF37F400038313B /* FavoritesTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FavoritesTableViewCell.xib; sourceTree = "<group>"; };
+		B02A801F1EF18C9200027871 /* Krixi-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Krixi-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B02A80221EF18C9200027871 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B02A80271EF18C9200027871 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B02A802A1EF18C9200027871 /* Krixi_Demo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Krixi_Demo.xcdatamodel; sourceTree = "<group>"; };
+		B02A802C1EF18C9200027871 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B02A802F1EF18C9200027871 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B02A80311EF18C9200027871 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B02A80371EF18CDA00027871 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B02A803C1EF18D2900027871 /* AMInputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AMInputView.swift; sourceTree = "<group>"; };
+		B02A803D1EF18D2900027871 /* AMInputView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AMInputView.xib; sourceTree = "<group>"; };
+		B02A80511EF18D4900027871 /* LoginSignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginSignupViewController.swift; sourceTree = "<group>"; };
+		B02A80531EF1907900027871 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		B02A80551EF1976800027871 /* Krixi-Demo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Krixi-Demo-Bridging-Header.h"; sourceTree = "<group>"; };
+		B02A80581EF1A01700027871 /* AppConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		B02A805D1EF1B6A100027871 /* ShoppingItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingItemViewController.swift; sourceTree = "<group>"; };
+		B0F275E21EF1C78D00EC592B /* BackgroundAnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundAnimationViewController.swift; sourceTree = "<group>"; };
+		B0F275E31EF1C78D00EC592B /* BackgroundKolodaAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundKolodaAnimator.swift; sourceTree = "<group>"; };
+		B0F275E41EF1C78D00EC592B /* CustomKolodaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomKolodaView.swift; sourceTree = "<group>"; };
+		B0F275E51EF1C78D00EC592B /* CustomOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomOverlayView.swift; sourceTree = "<group>"; };
+		B0F275E61EF1C78D00EC592B /* CustomOverlayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomOverlayView.xib; sourceTree = "<group>"; };
+		B0F275E71EF1C78D00EC592B /* ExampleOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleOverlayView.swift; sourceTree = "<group>"; };
+		B0F275E81EF1C78D00EC592B /* OverlayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OverlayView.xib; sourceTree = "<group>"; };
+		BA9CAD7ED9BFEB7BC59E0800 /* Pods-Krixi-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Krixi-Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Krixi-Demo/Pods-Krixi-Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		FCBD7F1DD1B580B6E0E854A1 /* Pods_Krixi_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Krixi_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B02A801C1EF18C9200027871 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36E2D93F066C055E2DA0E6EB /* Pods_Krixi_Demo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C62695BDE98F6CFD32A9CEE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BA9CAD7ED9BFEB7BC59E0800 /* Pods-Krixi-Demo.debug.xcconfig */,
+				21A8D7E6A1EE8866F80A12F0 /* Pods-Krixi-Demo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B01F0CA51EF37B030038313B /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				B01F0CAA1EF37F400038313B /* FavoritesTableViewCell.swift */,
+				B01F0CAB1EF37F400038313B /* FavoritesTableViewCell.xib */,
+			);
+			path = "Custom Cells";
+			sourceTree = "<group>";
+		};
+		B02A80161EF18C9200027871 = {
+			isa = PBXGroup;
+			children = (
+				B02A80211EF18C9200027871 /* Krixi-Demo */,
+				B02A80201EF18C9200027871 /* Products */,
+				3C62695BDE98F6CFD32A9CEE /* Pods */,
+				DFE238ECEC3871A5B929BA6B /* Frameworks */,
+				B02A80551EF1976800027871 /* Krixi-Demo-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		B02A80201EF18C9200027871 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B02A801F1EF18C9200027871 /* Krixi-Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B02A80211EF18C9200027871 /* Krixi-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				B01F0CA51EF37B030038313B /* Custom Cells */,
+				B02A805A1EF1A3DD00027871 /* Models */,
+				B02A80501EF18D4900027871 /* Controllers */,
+				B02A80391EF18D2900027871 /* Supporting Files */,
+				B02A80221EF18C9200027871 /* AppDelegate.swift */,
+				B02A80261EF18C9200027871 /* Main.storyboard */,
+				B02A802C1EF18C9200027871 /* Assets.xcassets */,
+				B02A80371EF18CDA00027871 /* Images.xcassets */,
+				B02A802E1EF18C9200027871 /* LaunchScreen.storyboard */,
+				B02A80311EF18C9200027871 /* Info.plist */,
+				B02A80291EF18C9200027871 /* Krixi_Demo.xcdatamodeld */,
+			);
+			path = "Krixi-Demo";
+			sourceTree = "<group>";
+		};
+		B02A80391EF18D2900027871 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0F275C91EF1C65000EC592B /* Koloda Files */,
+				B02A803A1EF18D2900027871 /* AMLoginSingup */,
+				B02A80531EF1907900027871 /* Utils.swift */,
+				B02A80581EF1A01700027871 /* AppConstants.swift */,
+				B01F0CA81EF37D4C0038313B /* Extensions.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B02A803A1EF18D2900027871 /* AMLoginSingup */ = {
+			isa = PBXGroup;
+			children = (
+				B02A803B1EF18D2900027871 /* AMInputView */,
+			);
+			path = AMLoginSingup;
+			sourceTree = "<group>";
+		};
+		B02A803B1EF18D2900027871 /* AMInputView */ = {
+			isa = PBXGroup;
+			children = (
+				B02A803C1EF18D2900027871 /* AMInputView.swift */,
+				B02A803D1EF18D2900027871 /* AMInputView.xib */,
+			);
+			path = AMInputView;
+			sourceTree = "<group>";
+		};
+		B02A80501EF18D4900027871 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B02A80511EF18D4900027871 /* LoginSignupViewController.swift */,
+				B02A805D1EF1B6A100027871 /* ShoppingItemViewController.swift */,
+				B01F0CA31EF37AD50038313B /* FavouritesTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B02A805A1EF1A3DD00027871 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B0F275C91EF1C65000EC592B /* Koloda Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0F275E21EF1C78D00EC592B /* BackgroundAnimationViewController.swift */,
+				B0F275E31EF1C78D00EC592B /* BackgroundKolodaAnimator.swift */,
+				B0F275E41EF1C78D00EC592B /* CustomKolodaView.swift */,
+				B0F275E51EF1C78D00EC592B /* CustomOverlayView.swift */,
+				B0F275E61EF1C78D00EC592B /* CustomOverlayView.xib */,
+				B0F275E71EF1C78D00EC592B /* ExampleOverlayView.swift */,
+				B0F275E81EF1C78D00EC592B /* OverlayView.xib */,
+			);
+			path = "Koloda Files";
+			sourceTree = "<group>";
+		};
+		DFE238ECEC3871A5B929BA6B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCBD7F1DD1B580B6E0E854A1 /* Pods_Krixi_Demo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B02A801E1EF18C9200027871 /* Krixi-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B02A80341EF18C9200027871 /* Build configuration list for PBXNativeTarget "Krixi-Demo" */;
+			buildPhases = (
+				6BB228398C0C973E342C3D10 /* [CP] Check Pods Manifest.lock */,
+				B02A801B1EF18C9200027871 /* Sources */,
+				B02A801C1EF18C9200027871 /* Frameworks */,
+				B02A801D1EF18C9200027871 /* Resources */,
+				DE675EF208A257AF4C83524B /* [CP] Embed Pods Frameworks */,
+				DEA025E5C697FDCF5BEE01AB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Krixi-Demo";
+			productName = "Krixi-Demo";
+			productReference = B02A801F1EF18C9200027871 /* Krixi-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B02A80171EF18C9200027871 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Vishal Sonawane";
+				TargetAttributes = {
+					B02A801E1EF18C9200027871 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = U3M7K6Z7U8;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B02A801A1EF18C9200027871 /* Build configuration list for PBXProject "Krixi-Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B02A80161EF18C9200027871;
+			productRefGroup = B02A80201EF18C9200027871 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B02A801E1EF18C9200027871 /* Krixi-Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B02A801D1EF18C9200027871 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0F275EF1EF1C78D00EC592B /* OverlayView.xib in Resources */,
+				B01F0CAD1EF37F400038313B /* FavoritesTableViewCell.xib in Resources */,
+				B02A80301EF18C9200027871 /* LaunchScreen.storyboard in Resources */,
+				B02A80381EF18CDA00027871 /* Images.xcassets in Resources */,
+				B0F275ED1EF1C78D00EC592B /* CustomOverlayView.xib in Resources */,
+				B02A80481EF18D2900027871 /* AMInputView.xib in Resources */,
+				B02A802D1EF18C9200027871 /* Assets.xcassets in Resources */,
+				B02A80281EF18C9200027871 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6BB228398C0C973E342C3D10 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DE675EF208A257AF4C83524B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Krixi-Demo/Pods-Krixi-Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEA025E5C697FDCF5BEE01AB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Krixi-Demo/Pods-Krixi-Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B02A801B1EF18C9200027871 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0F275EA1EF1C78D00EC592B /* BackgroundKolodaAnimator.swift in Sources */,
+				B02A80541EF1907900027871 /* Utils.swift in Sources */,
+				B0F275E91EF1C78D00EC592B /* BackgroundAnimationViewController.swift in Sources */,
+				B0F275EB1EF1C78D00EC592B /* CustomKolodaView.swift in Sources */,
+				B02A80591EF1A01700027871 /* AppConstants.swift in Sources */,
+				B02A805E1EF1B6A100027871 /* ShoppingItemViewController.swift in Sources */,
+				B02A80471EF18D2900027871 /* AMInputView.swift in Sources */,
+				B0F275EC1EF1C78D00EC592B /* CustomOverlayView.swift in Sources */,
+				B0F275EE1EF1C78D00EC592B /* ExampleOverlayView.swift in Sources */,
+				B02A80231EF18C9200027871 /* AppDelegate.swift in Sources */,
+				B01F0CAC1EF37F400038313B /* FavoritesTableViewCell.swift in Sources */,
+				B01F0CA91EF37D4C0038313B /* Extensions.swift in Sources */,
+				B02A80521EF18D4900027871 /* LoginSignupViewController.swift in Sources */,
+				B02A802B1EF18C9200027871 /* Krixi_Demo.xcdatamodeld in Sources */,
+				B01F0CA41EF37AD50038313B /* FavouritesTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B02A80261EF18C9200027871 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B02A80271EF18C9200027871 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B02A802E1EF18C9200027871 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B02A802F1EF18C9200027871 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B02A80321EF18C9200027871 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B02A80331EF18C9200027871 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B02A80351EF18C9200027871 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA9CAD7ED9BFEB7BC59E0800 /* Pods-Krixi-Demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = U3M7K6Z7U8;
+				INFOPLIST_FILE = "Krixi-Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bits.dev.test1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Krixi-Demo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B02A80361EF18C9200027871 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21A8D7E6A1EE8866F80A12F0 /* Pods-Krixi-Demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = U3M7K6Z7U8;
+				INFOPLIST_FILE = "Krixi-Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bits.dev.test1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Krixi-Demo-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B02A801A1EF18C9200027871 /* Build configuration list for PBXProject "Krixi-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B02A80321EF18C9200027871 /* Debug */,
+				B02A80331EF18C9200027871 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B02A80341EF18C9200027871 /* Build configuration list for PBXNativeTarget "Krixi-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B02A80351EF18C9200027871 /* Debug */,
+				B02A80361EF18C9200027871 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B02A80291EF18C9200027871 /* Krixi_Demo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B02A802A1EF18C9200027871 /* Krixi_Demo.xcdatamodel */,
+			);
+			currentVersion = B02A802A1EF18C9200027871 /* Krixi_Demo.xcdatamodel */;
+			path = Krixi_Demo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B02A80171EF18C9200027871 /* Project object */;
+}
